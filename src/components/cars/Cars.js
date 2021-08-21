@@ -7,8 +7,7 @@ export default function Cars() {
   let [cars, setCars] = useState([]);
 
   useEffect(() => {
-    getCars().then(({data}) => setCars([...data]));
-
+    getCars().then(data => setCars([...data]));
   }, [cars])
 
   return (
