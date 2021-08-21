@@ -1,5 +1,5 @@
 const getCars = () => {
-    return fetch("http://195.72.144.67/api/v1/cars")
+    return fetch("http://91.201.233.14/api/v1/cars")
         .then(value => value.json());
 }
 
